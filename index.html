@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <title>index</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="inp">
+            <select id="city" name="city">
+                <option value="臺北市" selected>臺北市</option>
+                <option value="新竹市">新竹市</option>
+                <option value="苗栗縣">苗栗縣</option>
+                <option value="臺中市">臺中市</option>
+                <option value="嘉義縣">嘉義縣</option>
+                <option value="臺南市">臺南市</option>
+                <option value="高雄市">高雄市</option>
+                <option value="屏東縣">屏東縣</option>
+                <option value="花蓮縣">花蓮縣</option>
+                <option value="臺東縣">臺東縣</option>
+            </select>
+            <button class="btn" id="get-btn">GET</button>
+        </div>
+        <div class="card">
+            <div class="text">
+                <h3 id="title">City</h3>
+                <p id="parameter">weather</p>
+                <p id="temp">temp</p>
+                <p id="rain">rain</p>
+            </div>
+            <div class="img">
+                <i class="fa-solid fa-mountain-sun"></i>
+            </div>
+        </div>
+        <button class="page"><a href="./page2.html">前往分頁</a></button>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

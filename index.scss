@@ -1,0 +1,85 @@
+body {
+    width: 100vw;
+    background-color: rgb(171, 190, 220);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10%;
+
+    .inp {
+        width: 250px;
+
+        select {
+            width: 200px;
+            height: 25px;
+            border-radius: 5px;
+            border: 0;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        .btn {
+            height: 25px;
+            border: 0;
+            border-radius: 3px;
+            margin-bottom: 10px;
+        }
+
+        .btn:hover {
+            background-color: rgb(91, 103, 113);
+            color: white;
+        }
+
+    }
+
+    .card {
+        background-color: white;
+        width: 250px;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 1px 7px;
+
+        .text {
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+            flex-direction: column;
+
+            h3,
+            p {
+                margin: 10px;
+            }
+        }
+
+        .img {
+            font-size: 70px;
+        }
+    }
+
+    .page {
+        height: 25px;
+        border: 0;
+        border-radius: 3px;
+        margin: 10px 0;
+
+        a {
+            color: rgb(24, 21, 99);
+        }
+    }
+
+    .page:hover {
+        background-color: rgb(91, 103, 113);
+
+        a {
+
+            color: white;
+        }
+    }
+}

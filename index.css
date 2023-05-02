@@ -1,0 +1,71 @@
+body {
+  width: 100vw;
+  background-color: rgb(171, 190, 220);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10%;
+}
+.container .inp {
+  width: 250px;
+}
+.container .inp select {
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+  border: 0;
+  margin: 10px 0;
+  text-align: center;
+}
+.container .inp .btn {
+  height: 25px;
+  border: 0;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.container .inp .btn:hover {
+  background-color: rgb(91, 103, 113);
+  color: white;
+}
+.container .card {
+  background-color: white;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1px 7px;
+}
+.container .card .text {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.container .card .text h3,
+.container .card .text p {
+  margin: 10px;
+}
+.container .card .img {
+  font-size: 70px;
+}
+.container .page {
+  height: 25px;
+  border: 0;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+.container .page a {
+  color: rgb(24, 21, 99);
+}
+.container .page:hover {
+  background-color: rgb(91, 103, 113);
+}
+.container .page:hover a {
+  color: white;
+}/*# sourceMappingURL=index.css.map */
